@@ -1,0 +1,10 @@
+SEMANA 02
+
+La implementación de collatz no retorna ningún valor, si bien respeta los cambios del número que indica la función no cuenta los pasos ni los retorna.
+
+En propagar vas a tener un error grave si la lista fuera, por ejemplo, [0. -1] porque min() no puede utilizarse con listas vacías.
+No va a funcionar si todos los elementos son fósforos apagados. Por ejemplo [0, 0, 0] va a devolver todos unos.
+
+SEMANA 03
+
+Falta implementar comprar_paquete y cuantos_paquetes
