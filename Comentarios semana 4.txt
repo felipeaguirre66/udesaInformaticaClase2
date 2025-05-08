@@ -1,0 +1,1 @@
+¡Hola! Tu solución cumplió nuestros tests, el informe contempla lo solicitado y los valores son correctos. La única observación es la razón entre especies autóctonas y exóticas, ya que hay un tercer tipo que no contemplaste y modificó la razón del resultado, ya que aumentó una de las variables. ¡Saludos!
