@@ -3,11 +3,14 @@ def invertir_lista(lista):
 
 def collatz(i):
     assert i > 0
+    steps = 0 
     while i > 1:
-        if i%2 == 0: 
+        if i % 2 == 0:
             i /= 2
-        else: 
-            i = i*3 + 1
+        else:
+            i = i * 3 + 1
+        steps += 1 
+    return steps
 
 def contar_definiciones(my_dict):
     return {k:len(v) for k,v in my_dict.items()}
@@ -16,6 +19,8 @@ def cantidad_de_claves_letra(my_dict, start):
     return sum([1 if k.startswith(start) else 0 for k,_ in my_dict.items()])
 
 def propagar(fos):
+    if all([f==0 for f in fos]):
+        return fos
     index_1 = [i for i, x in enumerate(fos) if x == 1]
     index_neg_1 = [i for i, x in enumerate(fos) if x == -1]
     results = []
